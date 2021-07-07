@@ -25,8 +25,11 @@
     </div>
   </div>
   <div class="card-2">
-    <img class="img-desktop" src="image-header-desktop.jpg">
-    <img class="img-mobile" src="image-header-mobile.jpg">
+    <picture>
+      <source srcset="image-header-desktop.jpg" media="max-width: 0px">
+      <source srcset="image-header-mobile.jpg" media="(max-width: 979px)">
+      <img class="img-desktop" src="image-header-desktop.jpg" alt="People working">
+    </picture>
   </div>
 </div>
   <div class="attribution">
